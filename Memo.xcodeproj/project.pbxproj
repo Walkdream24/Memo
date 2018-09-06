@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1407CD2221313B640074465C /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407CD2121313B640074465C /* TaskTableViewCell.swift */; };
 		1414FCA82130340D00A7CC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414FCA72130340D00A7CC80 /* AppDelegate.swift */; };
 		1414FCAA2130340E00A7CC80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414FCA92130340E00A7CC80 /* ViewController.swift */; };
 		1414FCAD2130340E00A7CC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1414FCAB2130340E00A7CC80 /* Main.storyboard */; };
 		1414FCB02130340E00A7CC80 /* Memo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1414FCAE2130340E00A7CC80 /* Memo.xcdatamodeld */; };
 		1414FCB22130340F00A7CC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1414FCB12130340F00A7CC80 /* Assets.xcassets */; };
 		1414FCB52130340F00A7CC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1414FCB32130340F00A7CC80 /* LaunchScreen.storyboard */; };
+		1414FCBD2130342C00A7CC80 /* pulas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1414FCBC2130342C00A7CC80 /* pulas.jpg */; };
+		1414FCBF2130343200A7CC80 /* batu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1414FCBE2130343200A7CC80 /* batu.jpg */; };
+		1414FCC12130347D00A7CC80 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1414FCC02130347D00A7CC80 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1407CD2121313B640074465C /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		1414FCA42130340D00A7CC80 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1414FCA72130340D00A7CC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1414FCA92130340E00A7CC80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		1414FCB12130340F00A7CC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1414FCB42130340F00A7CC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1414FCB62130340F00A7CC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1414FCBC2130342C00A7CC80 /* pulas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pulas.jpg; sourceTree = "<group>"; };
+		1414FCBE2130343200A7CC80 /* batu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batu.jpg; sourceTree = "<group>"; };
+		1414FCC02130347D00A7CC80 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,12 @@
 		1414FCA62130340D00A7CC80 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
+				1414FCBE2130343200A7CC80 /* batu.jpg */,
+				1414FCBC2130342C00A7CC80 /* pulas.jpg */,
 				1414FCA72130340D00A7CC80 /* AppDelegate.swift */,
 				1414FCA92130340E00A7CC80 /* ViewController.swift */,
+				1414FCC02130347D00A7CC80 /* AddTaskViewController.swift */,
+				1407CD2121313B640074465C /* TaskTableViewCell.swift */,
 				1414FCAB2130340E00A7CC80 /* Main.storyboard */,
 				1414FCB12130340F00A7CC80 /* Assets.xcassets */,
 				1414FCB32130340F00A7CC80 /* LaunchScreen.storyboard */,
@@ -126,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1414FCB52130340F00A7CC80 /* LaunchScreen.storyboard in Resources */,
+				1414FCBF2130343200A7CC80 /* batu.jpg in Resources */,
+				1414FCBD2130342C00A7CC80 /* pulas.jpg in Resources */,
 				1414FCB22130340F00A7CC80 /* Assets.xcassets in Resources */,
 				1414FCAD2130340E00A7CC80 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1414FCAA2130340E00A7CC80 /* ViewController.swift in Sources */,
+				1414FCC12130347D00A7CC80 /* AddTaskViewController.swift in Sources */,
+				1407CD2221313B640074465C /* TaskTableViewCell.swift in Sources */,
 				1414FCB02130340E00A7CC80 /* Memo.xcdatamodeld in Sources */,
 				1414FCA82130340D00A7CC80 /* AppDelegate.swift in Sources */,
 			);
